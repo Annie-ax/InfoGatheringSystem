@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hbut.info.commons.dao.SourceMapper">
+    <resultMap type="com.hbut.info.commons.model.Source"  id="sourceResultMap">
+        <id property="id" column="id"/>
+        <result property="source" column="source"/>
+    </resultMap>
+
+    <select id="selectAll" resultMap="sourceResultMap">
+        select * from source
+    </select>
+
+    <insert id="insert" parameterType="com.hbut.info.commons.model.Source" useGeneratedKeys="true" keyColumn="id">
+        INSERT INTO `source` (
+        <trim suffix=")" suffixOverrides=",">
+            <if test="source != null">source,</if>
+        </trim>
+        VALUES (
+        <trim suffix=")" suffixOverrides=",">
+            <if test="source != null">#{source},</if>
+        </trim>
+        <selectKey resultType="Long" keyProperty="id">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+    </insert>
+
+</mapper>

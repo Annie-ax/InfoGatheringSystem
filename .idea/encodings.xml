@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/src/main/resources/applicationContext.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commons/src/main/resources/spring-mybatis.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/igsServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/igsWeb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/igsWeb/src/main/java/com/hbut/info/igsWeb/controller/LogController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/igsWeb/src/main/webapp/res/bootstrap" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/igsWeb/src/main/webapp/res/build" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/igsWeb/src/main/webapp/res/dist" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/igsWeb/src/main/webapp/res/lib" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/igsWeb/src/main/webapp/res/plugins" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
